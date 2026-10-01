@@ -4,5 +4,8 @@ public class Card {
   Card(int cardValue) {
         this.cardValue = cardValue;
     }
+  public int getCardValue() {
+        return this.cardValue;
+    }
 }
 
