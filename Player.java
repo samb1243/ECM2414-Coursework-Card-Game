@@ -35,7 +35,19 @@ public class Player {
   }
 
   public void setNewPrefferedCardValue() {
-    
+    int[][] frequency = new int[2][5];
+    for (Card card : cardsInHand) {
+      int value = card.getCardValue();
+      for (int i = 0; i < 5; i++) {
+        if (value == frequency[0][i]) {
+          frequency[1][i]++;
+          break;
+        } else {
+          frequency[0][j] = value;
+          frequency[1][j] = 1;
+        }
+      }
+    }
     this.prefferedCard = 0; //change to check for most common card in the list of cards in hand initally 
   }
 
