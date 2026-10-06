@@ -8,3 +8,5 @@ discards first element of cardsInHand != prefferdValue
 could we create an array of decks in game?
 
 can player and deck IDs start at 0 rather than 1?
+
+do we need cards as a class?
