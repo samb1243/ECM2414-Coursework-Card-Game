@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Player {
   private final int playerID;
   private ArrayList<Card> cardsInHand;
-  private int prefferedCard;
+  private int prefferedValue;
   private final deck deckToDrawFromID;
   private final deck deckToDiscardToID;
 
@@ -30,11 +30,11 @@ public class Player {
     return this.playerID;
   }
 
-  public int getPrefferedCardValue(){
-    return this.prefferedCard;
+  public int getPrefferedValue(){
+    return this.prefferedValue;
   }
 
-  public void setNewPrefferedCardValue() {
+  public void setNewPrefferedValue() {
     int[][] frequency = {{-1, -1, -1, -1, -1}, {-1, -1, -1, -1, -1}};
     int j = 0;
     for (Card card : cardsInHand) {
@@ -58,7 +58,7 @@ public class Player {
         maxFrequency = frequency[1][i];
       }
     }
-    this.prefferedCard = maxValue;
+    this.prefferedValue = maxValue;
   }
 
   public void drawCard(){    //fix
