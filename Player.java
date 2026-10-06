@@ -15,11 +15,11 @@ public class Player {
     }
 
   public void setDecks() {
-    this.deckToDrawFrom = playerID;  //use get deck using deckID?
-      if (playerID = n) {
-        this.deckToDiscardTo = 0;  //use get deck using deckID?
+    this.deckToDrawFrom = decks[playerID];
+      if (playerID == n - 1) {
+        this.deckToDiscardTo = decks[0];
       } else {
-        this.deckToDiscardTo = playerID;  //use get deck using deckID?
+        this.deckToDiscardTo = decks[playerID + 1];
       }
   }
   
