@@ -1,11 +1,26 @@
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Player {
+  public static final int HAND_SIZE = 4;
+
+  private static final long WAIT_MILLIS = 20;
+  
   private final int playerID;
-  private ArrayList<Card> cardsInHand;
-  private int prefferedValue;
   private final CardDeck deckToDrawFromID;
   private final CardDeck deckToDiscardToID;
+  private static final GameState state;
+  private final Path outputDirectory;
+  private List<Card> cardsInHand = new ArrayList<>(HAND_SIZE + 1);
+
+  private int prefferedValue;
+  
 
   Player(int playerID) {
     this.playerID = playerID;
@@ -15,7 +30,7 @@ public class Player {
     }
   
   
-  public ArrayList<Card> getCardsInHand() {
+  public List<Card> getCardsInHand() {
     return this.cardsInHand;
     }
   public int getPlayerID() {
@@ -26,6 +41,7 @@ public class Player {
     return this.prefferedValue;
   }
 
+  //may not be needed but will keep here just in case 
   public void setNewPrefferedValue() {
     int[][] frequency = {{-1, -1, -1, -1, -1}, {-1, -1, -1, -1, -1}};
     int j = 0;
