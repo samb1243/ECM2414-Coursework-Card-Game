@@ -4,22 +4,22 @@ public class Player {
   private final int playerID;
   private ArrayList<Card> cardsInHand;
   private int prefferedValue;
-  private final deck deckToDrawFromID;
-  private final deck deckToDiscardToID;
+  private final Deck deckToDrawFromID;
+  private final Deck deckToDiscardToID;
 
   Player(int playerID) {
     this.playerID = playerID;
     this.cardsInHand = new ArrayList<Card>();
-    this.deckToDrawFrom;
-    this.deckToDiscardTo;
+    this.deckToDrawFromID = null; //will be changed when decks are set
+    this.deckToDiscardToID = null; //same again
     }
 
   public void setDecks() {
-    this.deckToDrawFrom = decks[playerID];
+    this.deckToDrawFromID = decks[playerID];
       if (playerID == n - 1) {
-        this.deckToDiscardTo = decks[0];
+        this.deckToDiscardToID = decks[0];
       } else {
-        this.deckToDiscardTo = decks[playerID + 1];
+        this.deckToDiscardToID = decks[playerID + 1];
       }
   }
   
