@@ -56,7 +56,7 @@ public class CardDeck {
   }
 
   public String describeContents(){
-    return "deck" + cardDeckID + " contents: " + Player.formatCards(getContents())).stripTrailing(); //not been made yet
+    return ("deck" + cardDeckID + " contents: " + Player.formatCards(getContents())).stripTrailing(); //not been made yet
   }
 
   public Path writeContents(Path directory) throws IOException {
