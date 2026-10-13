@@ -33,17 +33,17 @@ public final class Pack{
 
     public static Pack parse(List<String> lines, int players) throws InvalidPackException {
         requirePositive(players);
-        it end = lines.size();
+        int end = lines.size();
         while (end > 0 && lines.get(end - 1).isBlank()) {
             end--;
         }
-        int expected = CARD_PER_PLAYER * players;
+        int expected = CARDS_PER_PLAYER * players;
         if (end != expected) {
             throw new InvalidPackException("A Pack for " + players + " players must have " + expected + " rows, but this one has " + end + ".");
         }
-        List <Cards> Cards = new ArrayList<>(expected);
-        for (int i = 0, i < end; i++){
-            String row - lines.get(i).replace("\uFEFF", "").strip();
+        List<Card> cards = new ArrayList<>(expected);
+        for (int i = 0; i < end; i++){
+            String row = lines.get(i).replace("\uFEFF", "").strip();
             int value;
             try {
                 value = Integer.parseInt(row);
@@ -65,7 +65,7 @@ public final class Pack{
     }
 
     public int getPlayers(){
-        return card.size() / CARDS_PER_PLAYER;
+        return cards.size() / CARDS_PER_PLAYER;
     }
 
     public List<Card> getCards() {  
@@ -74,9 +74,12 @@ public final class Pack{
 
     public boolean canProduceWinner(){
         Map<Integer, Integer> counts = new HashMap<>();
-        if (counts.merge(card.getValue(), 1, Integer::sum) >= Player.HAND_SIZE) {
-            return true;
+        for (Card card : cards){
+            if (counts.merge(card.getCardValue(), 1, Integer::sum) >= Player.HAND_SIZE) {
+                return true;
+            }
         }
+        
         return false;
     }
 
