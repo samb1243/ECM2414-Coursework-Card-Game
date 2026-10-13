@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class Player {
+public class Player implements Runnable {
   public static final int HAND_SIZE = 4;
 
   private static final long WAIT_MILLIS = 20;
