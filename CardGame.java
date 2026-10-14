@@ -137,6 +137,7 @@ public final class CardGame{
       Pack pack = readPack(in, out, players);
       if (pack == null){
         out.println("No input recieved; exiting");
+        return 1;
       }
       if (!pack.canProduceWinner()){
         out.println("no card value appears four times in this pack, therefore nobody can win the game." + "Press Ctrl + C to stop.");

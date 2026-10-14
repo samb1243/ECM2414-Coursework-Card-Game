@@ -82,7 +82,7 @@ public class Player implements Runnable {
   }
 
   public TurnResult playTurn(){
-    CardDeck first = deckToDrawFromID.getDeckID() <= deckToDiscardToID.getDeckID() ? deckToDrawFromID : deckToDrawFromID;
+    CardDeck first = deckToDrawFromID.getDeckID() <= deckToDiscardToID.getDeckID() ? deckToDrawFromID : deckToDiscardToID;
     CardDeck second = first == deckToDrawFromID ? deckToDiscardToID : deckToDrawFromID;
     synchronized(first){
       synchronized(second){
@@ -97,7 +97,7 @@ public class Player implements Runnable {
           cardsInHand.add(cardDrawn);
           Card cardDiscarded = cardsInHand.remove(indexOfDiscard());
           deckToDiscardToID.addCard(cardDiscarded);
-          return new TurnResult(cardDrawn, cardDiscarded, cardsInHand, false);
+          return new TurnResult(cardDrawn, cardDiscarded, cardsInHand, hasWinningHand());
         }
       }
     }
@@ -132,7 +132,7 @@ public class Player implements Runnable {
         log(out, "player " + winner + " has informed player " + playerID + " that player " + winner + " has won");
       }
       log(out, "player " + playerID + " exits");
-      log(out, "player " + playerID + (winner == playerID ? " final hand: " : " hand:") + formatCards(getHand()));
+      log(out, "player " + playerID + (winner == playerID ? " final hand: " : " hand: ") + formatCards(getHand()));
       
     } catch (InterruptedException e ){
       Thread.currentThread().interrupt();
