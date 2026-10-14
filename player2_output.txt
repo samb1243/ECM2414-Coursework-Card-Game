@@ -1,0 +1,147 @@
+player 2 inital hand Card@5c2aaa7aCard@52ed5f8fCard@56d2c10aCard@13d055b4
+player 2 draws a Card@62932ee8 from deck 2
+player 2 discards a Card@5c2aaa7a to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@56d2c10aCard@13d055b4Card@62932ee8
+player 2 draws a Card@288fac1 from deck 2
+player 2 discards a Card@56d2c10a to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@13d055b4Card@62932ee8Card@288fac1
+player 2 draws a Card@79976016 from deck 2
+player 2 discards a Card@13d055b4 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@62932ee8Card@288fac1Card@79976016
+player 2 draws a Card@77b1b5ad from deck 2
+player 2 discards a Card@62932ee8 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@288fac1Card@79976016Card@77b1b5ad
+player 2 draws a Card@32cd2177 from deck 2
+player 2 discards a Card@288fac1 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@79976016Card@77b1b5adCard@32cd2177
+player 2 draws a Card@3b5b194 from deck 2
+player 2 discards a Card@79976016 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@77b1b5adCard@32cd2177Card@3b5b194
+player 2 draws a Card@97f90f9 from deck 2
+player 2 discards a Card@77b1b5ad to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@32cd2177Card@3b5b194Card@97f90f9
+player 2 draws a Card@127b7f02 from deck 2
+player 2 discards a Card@32cd2177 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@3b5b194Card@97f90f9Card@127b7f02
+player 2 draws a Card@41a11bfd from deck 2
+player 2 discards a Card@3b5b194 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@97f90f9Card@127b7f02Card@41a11bfd
+player 2 draws a Card@86befa4 from deck 2
+player 2 discards a Card@97f90f9 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@41a11bfdCard@86befa4
+player 2 draws a Card@3d489239 from deck 2
+player 2 discards a Card@41a11bfd to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@86befa4Card@3d489239
+player 2 draws a Card@338f7be0 from deck 2
+player 2 discards a Card@86befa4 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@3d489239Card@338f7be0
+player 2 draws a Card@37b0f949 from deck 2
+player 2 discards a Card@3d489239 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@338f7be0Card@37b0f949
+player 2 draws a Card@72b271db from deck 2
+player 2 discards a Card@338f7be0 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@37b0f949Card@72b271db
+player 2 draws a Card@129d8e94 from deck 2
+player 2 discards a Card@37b0f949 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@72b271dbCard@129d8e94
+player 2 draws a Card@34633f5b from deck 2
+player 2 discards a Card@72b271db to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@129d8e94Card@34633f5b
+player 2 draws a Card@39b80f07 from deck 2
+player 2 discards a Card@34633f5b to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@129d8e94Card@39b80f07
+player 2 draws a Card@3daf6dd4 from deck 2
+player 2 discards a Card@39b80f07 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@129d8e94Card@3daf6dd4
+player 2 draws a Card@1ee0838 from deck 2
+player 2 discards a Card@1ee0838 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@129d8e94Card@3daf6dd4
+player 2 draws a Card@f29f675 from deck 2
+player 2 discards a Card@f29f675 to deck 3
+player 2 currenty hand is Card@52ed5f8fCard@127b7f02Card@129d8e94Card@3daf6dd4
+player 2 draws a Card@b166348 from deck 2
+player 2 discards a Card@52ed5f8f to deck 3
+player 2 currenty hand is Card@127b7f02Card@129d8e94Card@3daf6dd4Card@b166348
+player 2 draws a Card@4e14fc4e from deck 2
+player 2 discards a Card@4e14fc4e to deck 3
+player 2 currenty hand is Card@127b7f02Card@129d8e94Card@3daf6dd4Card@b166348
+player 2 draws a Card@47a47137 from deck 2
+player 2 discards a Card@127b7f02 to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@4509bdd8 from deck 2
+player 2 discards a Card@4509bdd8 to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@38e999f6 from deck 2
+player 2 discards a Card@38e999f6 to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@5ca07a15 from deck 2
+player 2 discards a Card@5ca07a15 to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@1300b2ca from deck 2
+player 2 discards a Card@1300b2ca to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@362dc181 from deck 2
+player 2 discards a Card@362dc181 to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@7beb4f6c from deck 2
+player 2 discards a Card@7beb4f6c to deck 3
+player 2 currenty hand is Card@129d8e94Card@3daf6dd4Card@b166348Card@47a47137
+player 2 draws a Card@7fd4c4c9 from deck 2
+player 2 discards a Card@129d8e94 to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@76b4fb8f from deck 2
+player 2 discards a Card@76b4fb8f to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@f491751 from deck 2
+player 2 discards a Card@f491751 to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@173f34f5 from deck 2
+player 2 discards a Card@173f34f5 to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@71ed5eae from deck 2
+player 2 discards a Card@71ed5eae to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@7f491a19 from deck 2
+player 2 discards a Card@7f491a19 to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@3df169fa from deck 2
+player 2 discards a Card@3df169fa to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@19f8d9ba from deck 2
+player 2 discards a Card@19f8d9ba to deck 3
+player 2 currenty hand is Card@3daf6dd4Card@b166348Card@47a47137Card@7fd4c4c9
+player 2 draws a Card@4e94366b from deck 2
+player 2 discards a Card@3daf6dd4 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@56023ece from deck 2
+player 2 discards a Card@56023ece to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@3ad64557 from deck 2
+player 2 discards a Card@3ad64557 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@682fb1cc from deck 2
+player 2 discards a Card@682fb1cc to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@719e6532 from deck 2
+player 2 discards a Card@719e6532 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@4e741d6a from deck 2
+player 2 discards a Card@4e741d6a to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@49895e13 from deck 2
+player 2 discards a Card@49895e13 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@2a1774d3 from deck 2
+player 2 discards a Card@2a1774d3 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@5af9ba18 from deck 2
+player 2 discards a Card@5af9ba18 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@5eb70440 from deck 2
+player 2 discards a Card@5eb70440 to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@56d2c10a from deck 2
+player 2 discards a Card@56d2c10a to deck 3
+player 2 currenty hand is Card@b166348Card@47a47137Card@7fd4c4c9Card@4e94366b
+player 2 draws a Card@4a4b807c from deck 2
+player 2 discar

@@ -1,0 +1,146 @@
+player 6 inital hand Card@19f8d9baCard@173f34f5Card@1300b2caCard@56023ece
+player 6 draws a Card@719e6532 from deck 6
+player 6 discards a Card@19f8d9ba to deck 7
+player 6 currenty hand is Card@173f34f5Card@1300b2caCard@56023eceCard@719e6532
+player 6 draws a Card@362dc181 from deck 6
+player 6 discards a Card@173f34f5 to deck 7
+player 6 currenty hand is Card@1300b2caCard@56023eceCard@719e6532Card@362dc181
+player 6 draws a Card@7f491a19 from deck 6
+player 6 discards a Card@1300b2ca to deck 7
+player 6 currenty hand is Card@56023eceCard@719e6532Card@362dc181Card@7f491a19
+player 6 draws a Card@682fb1cc from deck 6
+player 6 discards a Card@56023ece to deck 7
+player 6 currenty hand is Card@719e6532Card@362dc181Card@7f491a19Card@682fb1cc
+player 6 draws a Card@7beb4f6c from deck 6
+player 6 discards a Card@719e6532 to deck 7
+player 6 currenty hand is Card@362dc181Card@7f491a19Card@682fb1ccCard@7beb4f6c
+player 6 draws a Card@7fd4c4c9 from deck 6
+player 6 discards a Card@362dc181 to deck 7
+player 6 currenty hand is Card@7f491a19Card@682fb1ccCard@7beb4f6cCard@7fd4c4c9
+player 6 draws a Card@3ad64557 from deck 6
+player 6 discards a Card@7f491a19 to deck 7
+player 6 currenty hand is Card@682fb1ccCard@7beb4f6cCard@7fd4c4c9Card@3ad64557
+player 6 draws a Card@5af9ba18 from deck 6
+player 6 discards a Card@682fb1cc to deck 7
+player 6 currenty hand is Card@7beb4f6cCard@7fd4c4c9Card@3ad64557Card@5af9ba18
+player 6 draws a Card@76b4fb8f from deck 6
+player 6 discards a Card@7beb4f6c to deck 7
+player 6 currenty hand is Card@7fd4c4c9Card@3ad64557Card@5af9ba18Card@76b4fb8f
+player 6 draws a Card@49895e13 from deck 6
+player 6 discards a Card@7fd4c4c9 to deck 7
+player 6 currenty hand is Card@3ad64557Card@5af9ba18Card@76b4fb8fCard@49895e13
+player 6 draws a Card@4e741d6a from deck 6
+player 6 discards a Card@3ad64557 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@76b4fb8fCard@49895e13Card@4e741d6a
+player 6 draws a Card@4a4b807c from deck 6
+player 6 discards a Card@76b4fb8f to deck 7
+player 6 currenty hand is Card@5af9ba18Card@49895e13Card@4e741d6aCard@4a4b807c
+player 6 draws a Card@f491751 from deck 6
+player 6 discards a Card@49895e13 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@4e741d6aCard@4a4b807cCard@f491751
+player 6 draws a Card@507d663f from deck 6
+player 6 discards a Card@4e741d6a to deck 7
+player 6 currenty hand is Card@5af9ba18Card@4a4b807cCard@f491751Card@507d663f
+player 6 draws a Card@6f66e81e from deck 6
+player 6 discards a Card@4a4b807c to deck 7
+player 6 currenty hand is Card@5af9ba18Card@f491751Card@507d663fCard@6f66e81e
+player 6 draws a Card@fb657d0 from deck 6
+player 6 discards a Card@f491751 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@507d663fCard@6f66e81eCard@fb657d0
+player 6 draws a Card@446c5d1b from deck 6
+player 6 discards a Card@507d663f to deck 7
+player 6 currenty hand is Card@5af9ba18Card@6f66e81eCard@fb657d0Card@446c5d1b
+player 6 draws a Card@4aabbbe6 from deck 6
+player 6 discards a Card@6f66e81e to deck 7
+player 6 currenty hand is Card@5af9ba18Card@fb657d0Card@446c5d1bCard@4aabbbe6
+player 6 draws a Card@4e94366b from deck 6
+player 6 discards a Card@fb657d0 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@446c5d1bCard@4aabbbe6Card@4e94366b
+player 6 draws a Card@551f05b5 from deck 6
+player 6 discards a Card@446c5d1b to deck 7
+player 6 currenty hand is Card@5af9ba18Card@4aabbbe6Card@4e94366bCard@551f05b5
+player 6 draws a Card@6384487d from deck 6
+player 6 discards a Card@4aabbbe6 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@4e94366bCard@551f05b5Card@6384487d
+player 6 draws a Card@4e1bcb15 from deck 6
+player 6 discards a Card@4e94366b to deck 7
+player 6 currenty hand is Card@5af9ba18Card@551f05b5Card@6384487dCard@4e1bcb15
+player 6 draws a Card@56d2c10a from deck 6
+player 6 discards a Card@551f05b5 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@6384487dCard@4e1bcb15Card@56d2c10a
+player 6 draws a Card@62932ee8 from deck 6
+player 6 discards a Card@6384487d to deck 7
+player 6 currenty hand is Card@5af9ba18Card@4e1bcb15Card@56d2c10aCard@62932ee8
+player 6 draws a Card@288fac1 from deck 6
+player 6 discards a Card@4e1bcb15 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@56d2c10aCard@62932ee8Card@288fac1
+player 6 draws a Card@79976016 from deck 6
+player 6 discards a Card@288fac1 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@56d2c10aCard@62932ee8Card@79976016
+player 6 draws a Card@77b1b5ad from deck 6
+player 6 discards a Card@79976016 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@56d2c10aCard@62932ee8Card@77b1b5ad
+player 6 draws a Card@3b5b194 from deck 6
+player 6 discards a Card@77b1b5ad to deck 7
+player 6 currenty hand is Card@5af9ba18Card@56d2c10aCard@62932ee8Card@3b5b194
+player 6 draws a Card@2a1774d3 from deck 6
+player 6 discards a Card@2a1774d3 to deck 7
+player 6 currenty hand is Card@5af9ba18Card@56d2c10aCard@62932ee8Card@3b5b194
+player 6 draws a Card@41a11bfd from deck 6
+player 6 discards a Card@5af9ba18 to deck 7
+player 6 currenty hand is Card@56d2c10aCard@62932ee8Card@3b5b194Card@41a11bfd
+player 6 draws a Card@5eb70440 from deck 6
+player 6 discards a Card@5eb70440 to deck 7
+player 6 currenty hand is Card@56d2c10aCard@62932ee8Card@3b5b194Card@41a11bfd
+player 6 draws a Card@3d489239 from deck 6
+player 6 discards a Card@56d2c10a to deck 7
+player 6 currenty hand is Card@62932ee8Card@3b5b194Card@41a11bfdCard@3d489239
+player 6 draws a Card@338f7be0 from deck 6
+player 6 discards a Card@338f7be0 to deck 7
+player 6 currenty hand is Card@62932ee8Card@3b5b194Card@41a11bfdCard@3d489239
+player 6 draws a Card@72b271db from deck 6
+player 6 discards a Card@62932ee8 to deck 7
+player 6 currenty hand is Card@3b5b194Card@41a11bfdCard@3d489239Card@72b271db
+player 6 draws a Card@1ee0838 from deck 6
+player 6 discards a Card@3b5b194 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@b96b1dd from deck 6
+player 6 discards a Card@b96b1dd to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@52ed5f8f from deck 6
+player 6 discards a Card@52ed5f8f to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@6ff7d19a from deck 6
+player 6 discards a Card@6ff7d19a to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@127b7f02 from deck 6
+player 6 discards a Card@127b7f02 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@5c2aaa7a from deck 6
+player 6 discards a Card@5c2aaa7a to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@3356dbbd from deck 6
+player 6 discards a Card@3356dbbd to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@32cd2177 from deck 6
+player 6 discards a Card@32cd2177 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@13d055b4 from deck 6
+player 6 discards a Card@13d055b4 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@6b28f3d1 from deck 6
+player 6 discards a Card@6b28f3d1 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@37b0f949 from deck 6
+player 6 discards a Card@37b0f949 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@129d8e94 from deck 6
+player 6 discards a Card@129d8e94 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@39b80f07 from deck 6
+player 6 discards a Card@39b80f07 to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@34633f5b from deck 6
+player 6 discards a Card@34633f5b to deck 7
+player 6 currenty hand is Card@41a11bfdCard@3d489239Card@72b271dbCard@1ee0838
+player 6 draws a Card@173f34f5 from deck 6

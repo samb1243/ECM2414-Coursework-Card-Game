@@ -1,0 +1,147 @@
+player 7 inital hand Card@1ee0838Card@f29f675Card@b166348Card@4e14fc4e
+player 7 draws a Card@47a47137 from deck 7
+player 7 discards a Card@1ee0838 to deck 8
+player 7 currenty hand is Card@f29f675Card@b166348Card@4e14fc4eCard@47a47137
+player 7 draws a Card@4509bdd8 from deck 7
+player 7 discards a Card@f29f675 to deck 8
+player 7 currenty hand is Card@b166348Card@4e14fc4eCard@47a47137Card@4509bdd8
+player 7 draws a Card@38e999f6 from deck 7
+player 7 discards a Card@b166348 to deck 8
+player 7 currenty hand is Card@4e14fc4eCard@47a47137Card@4509bdd8Card@38e999f6
+player 7 draws a Card@5ca07a15 from deck 7
+player 7 discards a Card@4e14fc4e to deck 8
+player 7 currenty hand is Card@47a47137Card@4509bdd8Card@38e999f6Card@5ca07a15
+player 7 draws a Card@19f8d9ba from deck 7
+player 7 discards a Card@47a47137 to deck 8
+player 7 currenty hand is Card@4509bdd8Card@38e999f6Card@5ca07a15Card@19f8d9ba
+player 7 draws a Card@173f34f5 from deck 7
+player 7 discards a Card@4509bdd8 to deck 8
+player 7 currenty hand is Card@38e999f6Card@5ca07a15Card@19f8d9baCard@173f34f5
+player 7 draws a Card@1300b2ca from deck 7
+player 7 discards a Card@38e999f6 to deck 8
+player 7 currenty hand is Card@5ca07a15Card@19f8d9baCard@173f34f5Card@1300b2ca
+player 7 draws a Card@56023ece from deck 7
+player 7 discards a Card@5ca07a15 to deck 8
+player 7 currenty hand is Card@19f8d9baCard@173f34f5Card@1300b2caCard@56023ece
+player 7 draws a Card@719e6532 from deck 7
+player 7 discards a Card@19f8d9ba to deck 8
+player 7 currenty hand is Card@173f34f5Card@1300b2caCard@56023eceCard@719e6532
+player 7 draws a Card@362dc181 from deck 7
+player 7 discards a Card@173f34f5 to deck 8
+player 7 currenty hand is Card@1300b2caCard@56023eceCard@719e6532Card@362dc181
+player 7 draws a Card@7f491a19 from deck 7
+player 7 discards a Card@1300b2ca to deck 8
+player 7 currenty hand is Card@56023eceCard@719e6532Card@362dc181Card@7f491a19
+player 7 draws a Card@682fb1cc from deck 7
+player 7 discards a Card@56023ece to deck 8
+player 7 currenty hand is Card@719e6532Card@362dc181Card@7f491a19Card@682fb1cc
+player 7 draws a Card@7beb4f6c from deck 7
+player 7 discards a Card@719e6532 to deck 8
+player 7 currenty hand is Card@362dc181Card@7f491a19Card@682fb1ccCard@7beb4f6c
+player 7 draws a Card@7fd4c4c9 from deck 7
+player 7 discards a Card@362dc181 to deck 8
+player 7 currenty hand is Card@7f491a19Card@682fb1ccCard@7beb4f6cCard@7fd4c4c9
+player 7 draws a Card@3ad64557 from deck 7
+player 7 discards a Card@682fb1cc to deck 8
+player 7 currenty hand is Card@7f491a19Card@7beb4f6cCard@7fd4c4c9Card@3ad64557
+player 7 draws a Card@76b4fb8f from deck 7
+player 7 discards a Card@7beb4f6c to deck 8
+player 7 currenty hand is Card@7f491a19Card@7fd4c4c9Card@3ad64557Card@76b4fb8f
+player 7 draws a Card@49895e13 from deck 7
+player 7 discards a Card@7fd4c4c9 to deck 8
+player 7 currenty hand is Card@7f491a19Card@3ad64557Card@76b4fb8fCard@49895e13
+player 7 draws a Card@4e741d6a from deck 7
+player 7 discards a Card@76b4fb8f to deck 8
+player 7 currenty hand is Card@7f491a19Card@3ad64557Card@49895e13Card@4e741d6a
+player 7 draws a Card@4a4b807c from deck 7
+player 7 discards a Card@4e741d6a to deck 8
+player 7 currenty hand is Card@7f491a19Card@3ad64557Card@49895e13Card@4a4b807c
+player 7 draws a Card@f491751 from deck 7
+player 7 discards a Card@f491751 to deck 8
+player 7 currenty hand is Card@7f491a19Card@3ad64557Card@49895e13Card@4a4b807c
+player 7 draws a Card@507d663f from deck 7
+player 7 discards a Card@507d663f to deck 8
+player 7 currenty hand is Card@7f491a19Card@3ad64557Card@49895e13Card@4a4b807c
+player 7 draws a Card@6f66e81e from deck 7
+player 7 discards a Card@6f66e81e to deck 8
+player 7 currenty hand is Card@7f491a19Card@3ad64557Card@49895e13Card@4a4b807c
+player 7 draws a Card@fb657d0 from deck 7
+player 7 discards a Card@7f491a19 to deck 8
+player 7 currenty hand is Card@3ad64557Card@49895e13Card@4a4b807cCard@fb657d0
+player 7 draws a Card@446c5d1b from deck 7
+player 7 discards a Card@446c5d1b to deck 8
+player 7 currenty hand is Card@3ad64557Card@49895e13Card@4a4b807cCard@fb657d0
+player 7 draws a Card@4aabbbe6 from deck 7
+player 7 discards a Card@4aabbbe6 to deck 8
+player 7 currenty hand is Card@3ad64557Card@49895e13Card@4a4b807cCard@fb657d0
+player 7 draws a Card@4e94366b from deck 7
+player 7 discards a Card@4e94366b to deck 8
+player 7 currenty hand is Card@3ad64557Card@49895e13Card@4a4b807cCard@fb657d0
+player 7 draws a Card@551f05b5 from deck 7
+player 7 discards a Card@551f05b5 to deck 8
+player 7 currenty hand is Card@3ad64557Card@49895e13Card@4a4b807cCard@fb657d0
+player 7 draws a Card@6384487d from deck 7
+player 7 discards a Card@3ad64557 to deck 8
+player 7 currenty hand is Card@49895e13Card@4a4b807cCard@fb657d0Card@6384487d
+player 7 draws a Card@4e1bcb15 from deck 7
+player 7 discards a Card@4e1bcb15 to deck 8
+player 7 currenty hand is Card@49895e13Card@4a4b807cCard@fb657d0Card@6384487d
+player 7 draws a Card@288fac1 from deck 7
+player 7 discards a Card@288fac1 to deck 8
+player 7 currenty hand is Card@49895e13Card@4a4b807cCard@fb657d0Card@6384487d
+player 7 draws a Card@79976016 from deck 7
+player 7 discards a Card@79976016 to deck 8
+player 7 currenty hand is Card@49895e13Card@4a4b807cCard@fb657d0Card@6384487d
+player 7 draws a Card@77b1b5ad from deck 7
+player 7 discards a Card@49895e13 to deck 8
+player 7 currenty hand is Card@4a4b807cCard@fb657d0Card@6384487dCard@77b1b5ad
+player 7 draws a Card@2a1774d3 from deck 7
+player 7 discards a Card@2a1774d3 to deck 8
+player 7 currenty hand is Card@4a4b807cCard@fb657d0Card@6384487dCard@77b1b5ad
+player 7 draws a Card@5af9ba18 from deck 7
+player 7 discards a Card@5af9ba18 to deck 8
+player 7 currenty hand is Card@4a4b807cCard@fb657d0Card@6384487dCard@77b1b5ad
+player 7 draws a Card@5eb70440 from deck 7
+player 7 discards a Card@5eb70440 to deck 8
+player 7 currenty hand is Card@4a4b807cCard@fb657d0Card@6384487dCard@77b1b5ad
+player 7 draws a Card@56d2c10a from deck 7
+player 7 discards a Card@56d2c10a to deck 8
+player 7 currenty hand is Card@4a4b807cCard@fb657d0Card@6384487dCard@77b1b5ad
+player 7 draws a Card@338f7be0 from deck 7
+player 7 discards a Card@4a4b807c to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@62932ee8 from deck 7
+player 7 discards a Card@62932ee8 to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@3b5b194 from deck 7
+player 7 discards a Card@3b5b194 to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@b96b1dd from deck 7
+player 7 discards a Card@b96b1dd to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@52ed5f8f from deck 7
+player 7 discards a Card@52ed5f8f to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@6ff7d19a from deck 7
+player 7 discards a Card@6ff7d19a to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@127b7f02 from deck 7
+player 7 discards a Card@127b7f02 to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@5c2aaa7a from deck 7
+player 7 discards a Card@5c2aaa7a to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@3356dbbd from deck 7
+player 7 discards a Card@3356dbbd to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@32cd2177 from deck 7
+player 7 discards a Card@32cd2177 to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@13d055b4 from deck 7
+player 7 discards a Card@13d055b4 to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@6b28f3d1 from deck 7
+player 7 discards a Card@6b28f3d1 to deck 8
+player 7 currenty hand is Card@fb657d0Card@6384487dCard@77b1b5adCard@338f7be0
+player 7 draws a Card@37b0f949 from deck 7
+playe

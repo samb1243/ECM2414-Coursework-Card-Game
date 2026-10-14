@@ -42,7 +42,7 @@ public final class CardGame{
       if (i < handCards){
         players.get(i % n).recieveCard(cards.get(i));
       } else {
-        decks.get(i % 0).addCard(cards.get(i));
+        decks.get(i % n).addCard(cards.get(i));
       }
     }
   }

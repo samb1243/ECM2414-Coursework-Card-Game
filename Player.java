@@ -118,7 +118,7 @@ public class Player implements Runnable {
   public void run() {
     try(BufferedWriter out = Files.newBufferedWriter(getOutputFile(), StandardCharsets.UTF_8)){
       try {
-        log(out, "player " + playerID + " inital hand " + formatCards(getHand()));
+        log(out, "player " + playerID + " initial hand " + formatCards(getHand()));
         if (hasWinningHand()) {
           announceWin(out);
         }
@@ -154,7 +154,7 @@ public class Player implements Runnable {
       TurnResult turn = playTurn();
       log(out, "player " + playerID + " draws a " + turn.getCardDrawn() + " from deck " + deckToDrawFromID.getDeckID());
       log(out, "player " + playerID + " discards a " + turn.getCardDisCarded() + " to deck " + deckToDiscardToID.getDeckID());
-      log(out, "player " + playerID + " currenty hand is " + formatCards(turn.getPlayersHand()));
+      log(out, "player " + playerID + " current hand is " + formatCards(turn.getPlayersHand()));
       if(turn.isWinningHand()){
         announceWin(out);
       }
@@ -180,7 +180,7 @@ public class Player implements Runnable {
   }
 
   public static String formatCards(List<Card> cards) {
-    return cards.stream().map(Card::toString).collect(Collectors.joining(""));
+    return cards.stream().map(Card::toString).collect(Collectors.joining(" "));
   }
 
   @Override 
