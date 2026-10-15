@@ -20,6 +20,12 @@ player 4 current hand is 4 13 1 4
 player 4 draws a 4 from deck 4
 player 4 discards a 13 to deck 1
 player 4 current hand is 4 1 4 4
+player 4 draws a 1 from deck 4
+player 4 discards a 1 to deck 1
+player 4 current hand is 4 4 4 1
+player 4 draws a 6 from deck 4
+player 4 discards a 1 to deck 1
+player 4 current hand is 4 4 4 6
 player 2 has informed player 4 that player 2 has won
 player 4 exits
-player 4 hand: 4 1 4 4
+player 4 hand: 4 4 4 6

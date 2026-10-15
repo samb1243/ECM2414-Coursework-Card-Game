@@ -139,17 +139,19 @@ public class Player implements Runnable { //class for each individual player in 
       fail(e);
     } catch (IOException  | RuntimeException e){
       fail(e);
+    } finally {
+      state.leaveRounds(); //stop the other players waiting for this one at the end of a round
     }
   }
 
 
   private void playUntilGameOver(BufferedWriter out) throws IOException, InterruptedException { //method to play turns until the game is over, takes in a BufferedWriter as an argument, writes the player's actions to the output file, and handles any exceptions that occur during the game
-    while (!state.isOver()){
-      if (!deckToDrawFromID.awaitCard(WAIT_MILLIS)){
-        continue;
-      }
-      if(state.isOver()){
-        break;
+    boolean gameOver = state.isOver(); //only true here if a player was dealt a winning hand
+    while (!gameOver){
+      while (!deckToDrawFromID.awaitCard(WAIT_MILLIS)){
+        if (state.isAborted()){
+          return;
+        }
       }
       TurnResult turn = playTurn();
       log(out, "player " + playerID + " draws a " + turn.getCardDrawn() + " from deck " + deckToDrawFromID.getDeckID());
@@ -158,6 +160,7 @@ public class Player implements Runnable { //class for each individual player in 
       if(turn.isWinningHand()){
         announceWin(out);
       }
+      gameOver = state.awaitEndOfRound(); //the game only ends between rounds, so everyone finishes the round a winner was found in
     }
   }
 
