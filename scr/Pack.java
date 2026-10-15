@@ -76,7 +76,7 @@ public final class Pack{ //class for the pack of cards, contains a list of cards
     public boolean canProduceWinner(){ //method to check if the pack can produce a winner, returns true if the pack can produce a winner, false otherwise
         Map<Integer, Integer> counts = new HashMap<>();
         for (Card card : cards){
-            if (counts.merge(card.getCardValue(), 1, Integer::sum) >= Player.HAND_SIZE) {
+            if (counts.merge(card.getCardValue(), 1, Integer::sum) >= Player.HAND_SIZE) { 
                 return true;
             }
         }

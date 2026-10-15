@@ -82,8 +82,8 @@ public class Player implements Runnable { //class for each individual player in 
   }
 
   public TurnResult playTurn(){ //method to play a turn, draws a card from the deck to draw from, discards a card to the deck to discard to, returns a TurnResult object containing the card drawn, the card discarded, the player's hand, and whether the player has a winning hand
-    CardDeck first = deckToDrawFromID.getDeckID() <= deckToDiscardToID.getDeckID() ? deckToDrawFromID : deckToDiscardToID;
-    CardDeck second = first == deckToDrawFromID ? deckToDiscardToID : deckToDrawFromID;
+    CardDeck first = deckToDrawFromID.getDeckID() <= deckToDiscardToID.getDeckID() ? deckToDrawFromID : deckToDiscardToID; //could be where it is buggint out witht he inconsistant turns 
+    CardDeck second = first == deckToDrawFromID ? deckToDiscardToID : deckToDrawFromID; 
     synchronized(first){
       synchronized(second){
         synchronized(this){
