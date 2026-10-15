@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public final class CardGame{
+public final class CardGame{ //class for the card game, contains a list of players, a list of decks, the game state, the output directory, and methods to start and play the game
 
   private final List<Player> players;
   private final List<CardDeck> decks;
@@ -18,7 +18,7 @@ public final class CardGame{
   private final Path outputDirectory;
   private final List<Thread> threads = new ArrayList<>();
   
-  public CardGame(Pack pack, Path outputDirectory) {
+  public CardGame(Pack pack, Path outputDirectory) { //constructor for the card game class, takes in a pack of cards and the output directory as arguments, creates the players and decks, and deals the cards to the players and decks
     int n = pack.getPlayers();
     this.outputDirectory = outputDirectory;
     this.state = new GameState(n);
@@ -35,7 +35,7 @@ public final class CardGame{
     deal(pack.getCards());
   }
 
-  private void deal(List<Card> cards) {
+  private void deal(List<Card> cards) { //method to deal the cards to the players and decks, takes in a list of cards as an argument, deals the cards to the players and decks in a round-robin fashion
     int n = players.size();
     int handCards = Player.HAND_SIZE * n;
     for (int i = 0; i < cards.size(); i++){
@@ -47,19 +47,19 @@ public final class CardGame{
     }
   }
 
-  public List<Player> getPlayers() {
+  public List<Player> getPlayers() { //method to get the list of players, returns a list of players
     return players;
   }
 
-  public List<CardDeck> getDecks(){
+  public List<CardDeck> getDecks(){ //method to get the list of decks, returns a list of decks
     return decks;
   }
 
-  public GameState getState() {
+  public GameState getState() { //method to get the game state, returns the game state
     return state;
   }
 
-  public synchronized void start() {
+  public synchronized void start() { //method to start the game, creates a thread for each player and starts the threads
     if (!threads.isEmpty()) {
       throw new IllegalStateException("Game already started");
     }
@@ -70,7 +70,7 @@ public final class CardGame{
     threads.forEach(Thread::start);
   }
 
-  public int awaitCompletion() throws InterruptedException, IOException {
+  public int awaitCompletion() throws InterruptedException, IOException { //method to wait for the game to complete, waits for all threads to finish, writes the contents of the decks to the output directory, and returns the id of the winner
     List<Thread> started;
     synchronized (this) {
       started = new ArrayList<>(threads);
@@ -89,16 +89,16 @@ public final class CardGame{
     return state.getWinner();
   }
 
-  public int play() throws InterruptedException, IOException{
+  public int play() throws InterruptedException, IOException{ //method to play the game, starts the game and waits for it to complete, returns the id of the winner
     start();
     return awaitCompletion();
   }
 
-  public List<Card> snapshotAllCards() { 
+  public List<Card> snapshotAllCards() { //method to get a snapshot of all cards in the game, returns a list of all cards in the players' hands and decks
     return snapshotFrom(0);
   }
 
-  private List<Card> snapshotFrom(int index) {
+  private List<Card> snapshotFrom(int index) { //method to get a snapshot of all cards in the game from a given index, takes in an index as an argument, returns a list of all cards in the players' hands and decks from the given index
     if (index == decks.size()) {
       List<Card> all = new ArrayList<>();
       for (Player player : players){
@@ -118,7 +118,7 @@ public final class CardGame{
 
   // command line entry 
 
-  public static void main (String[] args) {
+  public static void main (String[] args) { //method to run the game from the command line, takes in an array of strings as arguments, reads the number of players and the pack of cards from the console, and plays the game
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in, Charset.defaultCharset()));
     int status = runFromConsole(in, System.out, Paths.get(""));
     if (status != 0){
@@ -127,7 +127,7 @@ public final class CardGame{
 
   }
 
-  static int runFromConsole(BufferedReader in, PrintStream out, Path outputDirectory){
+  static int runFromConsole(BufferedReader in, PrintStream out, Path outputDirectory){ //method to run the game from the console, takes in a BufferedReader, a PrintStream, and a Path as arguments, reads the number of players and the pack of cards from the console, and plays the game
     try{
       Integer players = readPlayers(in, out);
       if(players == null){
@@ -157,7 +157,7 @@ public final class CardGame{
     }
   }
 
-  private static Integer readPlayers(BufferedReader in, PrintStream out) throws IOException {
+  private static Integer readPlayers(BufferedReader in, PrintStream out) throws IOException { //method to read the number of players from the console, takes in a BufferedReader and a PrintStream as arguments, returns the number of players as an Integer
     while (true) {
       out.println("Please enter the number of players");
       String line = readLine(in);
@@ -177,7 +177,7 @@ public final class CardGame{
   }
 
 
-  private static Pack readPack(BufferedReader in, PrintStream out, int players) throws IOException {
+  private static Pack readPack(BufferedReader in, PrintStream out, int players) throws IOException { //method to read the pack of cards from the console, takes in a BufferedReader, a PrintStream, and the number of players as arguments, returns a Pack object
     while (true){
       out.println("Please enter location of pack to load");
       String line = readLine(in);
@@ -196,7 +196,7 @@ public final class CardGame{
     }
   }
 
-  private static String readLine(BufferedReader in) throws IOException {
+  private static String readLine(BufferedReader in) throws IOException { //method to read a line from the console, takes in a BufferedReader as an argument, returns the line read as a String
     String line = in.readLine();
     return line == null ? null : line.replace("\uFEFF","").strip();
   }
