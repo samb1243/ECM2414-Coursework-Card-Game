@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Player implements Runnable {
+public class Player implements Runnable { //class for each individual player in the game, contains the player's id, the decks to draw from and discard to, the game state, the output directory, and the player's hand of cards
   public static final int HAND_SIZE = 4;
 
   private static final long WAIT_MILLIS = 20;
@@ -22,7 +22,7 @@ public class Player implements Runnable {
   private volatile Throwable failure;
   
 
-  public Player(int playerID, CardDeck deckToDrawFromID, CardDeck deckToDiscardToID, GameState state, Path outputDirectory){
+  public Player(int playerID, CardDeck deckToDrawFromID, CardDeck deckToDiscardToID, GameState state, Path outputDirectory){ //constructor for the player class, takes in the player's id, the decks to draw from and discard to, the game state, and the output directory as arguments
     if (playerID < 1){
       throw new IllegalArgumentException("Player id must be positive: " + playerID);
     }
@@ -36,16 +36,16 @@ public class Player implements Runnable {
     this.outputDirectory = outputDirectory;
   }
 
-  public int getPlayerID() {
+  public int getPlayerID() { //method to get the player's id, returns the player's id
     return playerID;
   }
 
-  public int getPrefferedValue(){
+  public int getPrefferedValue(){ //method to get the player's preferred value, returns the player's id as the preferred value
     return playerID; 
   }
 
 
-  public synchronized void recieveCard (Card card) {
+  public synchronized void recieveCard (Card card) { //method to receive a card, takes in a card as an argument, adds the card to the player's hand, throws an exception if the player already has the maximum number of cards
     if (card == null){
       throw new IllegalStateException("player " + playerID + " already holds " + HAND_SIZE +  " cards");  
     }
@@ -55,11 +55,11 @@ public class Player implements Runnable {
     cardsInHand.add(card);
   }
 
-  public synchronized List<Card> getHand(){
+  public synchronized List<Card> getHand(){ //method to get the player's hand, returns a copy of the player's hand
     return new ArrayList<>(cardsInHand);
   }
 
-  public synchronized boolean hasWinningHand() {
+  public synchronized boolean hasWinningHand() { //method to check if the player has a winning hand, returns true if the player has a winning hand, false otherwise
     if (cardsInHand.size() != HAND_SIZE){
       return false;
     }
@@ -69,19 +69,18 @@ public class Player implements Runnable {
         return false;
       }
     }
-   
     return true;
   }
 
-  public Path getOutputFile() {
+  public Path getOutputFile() { //method to get the path to the player's output file, returns the path to the player's output file
     return outputDirectory.resolve("player" + playerID + "_output.txt");
   } 
 
-  public Throwable getFailure() {
+  public Throwable getFailure() { //method to get the player's failure, returns the player's failure, or null if the player has not failed
     return failure;
   }
 
-  public TurnResult playTurn(){
+  public TurnResult playTurn(){ //method to play a turn, draws a card from the deck to draw from, discards a card to the deck to discard to, returns a TurnResult object containing the card drawn, the card discarded, the player's hand, and whether the player has a winning hand
     CardDeck first = deckToDrawFromID.getDeckID() <= deckToDiscardToID.getDeckID() ? deckToDrawFromID : deckToDiscardToID;
     CardDeck second = first == deckToDrawFromID ? deckToDiscardToID : deckToDrawFromID;
     synchronized(first){
@@ -103,7 +102,7 @@ public class Player implements Runnable {
     }
   }
 
-  private int indexOfDiscard(){
+  private int indexOfDiscard(){ //method to get the index of the card to discard, returns the index of the first card that does not match the player's preferred value, or 0 if all cards match the player's preferred value
     for (int i = 0; i < cardsInHand.size(); i++){
       if(cardsInHand.get(i).getCardValue() != playerID){
         return i;
@@ -115,7 +114,7 @@ public class Player implements Runnable {
 
 
   @Override 
-  public void run() {
+  public void run() { //method to run the player thread, writes the player's initial hand to the output file, plays turns until the game is over, writes the player's final hand to the output file, and handles any exceptions that occur during the game
     try(BufferedWriter out = Files.newBufferedWriter(getOutputFile(), StandardCharsets.UTF_8)){
       try {
         log(out, "player " + playerID + " initial hand " + formatCards(getHand()));
@@ -143,7 +142,7 @@ public class Player implements Runnable {
   }
 
 
-  private void playUntilGameOver(BufferedWriter out) throws IOException, InterruptedException {
+  private void playUntilGameOver(BufferedWriter out) throws IOException, InterruptedException { //method to play turns until the game is over, takes in a BufferedWriter as an argument, writes the player's actions to the output file, and handles any exceptions that occur during the game
     while (!state.isOver()){
       if (!deckToDrawFromID.awaitCard(WAIT_MILLIS)){
         continue;
@@ -161,7 +160,7 @@ public class Player implements Runnable {
     }
   }
 
-  private void announceWin(BufferedWriter out) throws IOException {
+  private void announceWin(BufferedWriter out) throws IOException { //method to announce the player's win, takes in a BufferedWriter as an argument, writes the player's win to the output file, and declares the player as the winner in the game state
     if (state.declareWinner(playerID)){
       System.out.println("Player " + playerID + " wins");
       log(out, "player " + playerID + " wins");
@@ -169,28 +168,28 @@ public class Player implements Runnable {
   }
 
 
-  private void fail(Throwable e){
+  private void fail(Throwable e){ //method to handle the player's failure, takes in a Throwable as an argument, sets the player's failure to the Throwable, and aborts the game state
     failure = e;
     state.abort();
   }
 
-  private static void log(BufferedWriter out, String line) throws IOException {
+  private static void log(BufferedWriter out, String line) throws IOException { //method to log a line to the output file, takes in a BufferedWriter and a string as arguments, writes the string to the output file, and adds a new line
     out.write(line);
     out.newLine();
   }
 
-  public static String formatCards(List<Card> cards) {
+  public static String formatCards(List<Card> cards) { //method to format a list of cards as a string, takes in a list of cards as an argument, returns a string representation of the list of cards
     return cards.stream().map(Card::toString).collect(Collectors.joining(" "));
   }
 
   @Override 
-  public String toString(){
+  public String toString(){ //overrides the toString method to return the player's id as a string
     return "player" + playerID;
   }
 
 
 
-  public static final class TurnResult {
+  public static final class TurnResult { //class for the result of a turn, contains the card drawn, the card discarded, the player's hand, and whether the player has a winning hand
     private final Card cardDrawn;
     private final Card cardDiscarded;
     private final List<Card> playersHand;
@@ -203,19 +202,19 @@ public class Player implements Runnable {
       this.winningHand = winningHand;
     }
 
-    public Card getCardDrawn(){
+    public Card getCardDrawn(){ //method to get the card drawn, returns the card drawn
       return cardDrawn;
     }
 
-    public Card getCardDisCarded(){
+    public Card getCardDisCarded(){ //method to get the card discarded, returns the card discarded
       return cardDiscarded;
     }
 
-    public List<Card> getPlayersHand(){
+    public List<Card> getPlayersHand(){ //method to get the player's hand, returns a copy of the player's hand
       return playersHand;
     }
 
-    public boolean isWinningHand(){
+    public boolean isWinningHand(){ //method to check if the player has a winning hand, returns true if the player has a winning hand, false otherwise  
       return winningHand;
     }
 
