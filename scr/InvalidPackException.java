@@ -1,3 +1,4 @@
+package scr;
 public class InvalidPackException extends Exception { //class for the exception thrown when a pack of cards is invalid, extends the Exception class
     private static final long serialVersionUID = 1L;
 

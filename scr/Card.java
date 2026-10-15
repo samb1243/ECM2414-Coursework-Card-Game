@@ -1,3 +1,4 @@
+package scr;
 //class for each invidivual card in the deck, contains the value of the card and a method to get the value of the card
 public class Card {
   private final int cardValue;
