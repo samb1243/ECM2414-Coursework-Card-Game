@@ -3,7 +3,7 @@ package scr;
 public class Card {
   private final int cardValue;
 
-  Card(int cardValue) { //constructor for the card class, takes in the value of the card as an argument
+  public Card(int cardValue) { //constructor for the card class, takes in the value of the card as an argument
     if (cardValue < 0) {
       throw new IllegalArgumentException("Card value must be non-negative: " + cardValue);
     }

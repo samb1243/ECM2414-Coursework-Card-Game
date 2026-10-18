@@ -13,7 +13,7 @@ public class CardDeck { //class for each individual deck in the game, contains a
   private final int cardDeckID;
   private final Deque<Card> cardsInDeck = new ArrayDeque<>();
 
-  CardDeck(int cardDeckID) { //constructor for the card deck class, takes in the id of the deck as an argument
+  public CardDeck(int cardDeckID) { //constructor for the card deck class, takes in the id of the deck as an argument
     if(cardDeckID < 1){
       throw new IllegalArgumentException("Deck id must be positive " + cardDeckID);
     }

@@ -128,7 +128,7 @@ public final class CardGame{ //class for the card game, contains a list of playe
 
   }
 
-  static int runFromConsole(BufferedReader in, PrintStream out, Path outputDirectory){ //method to run the game from the console, takes in a BufferedReader, a PrintStream, and a Path as arguments, reads the number of players and the pack of cards from the console, and plays the game
+  public static int runFromConsole(BufferedReader in, PrintStream out, Path outputDirectory){ //method to run the game from the console, takes in a BufferedReader, a PrintStream, and a Path as arguments, reads the number of players and the pack of cards from the console, and plays the game
     try{
       Integer players = readPlayers(in, out);
       if(players == null){
