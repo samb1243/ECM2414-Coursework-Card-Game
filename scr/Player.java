@@ -146,7 +146,7 @@ public class Player implements Runnable { //class for each individual player in 
 
 
   private void playUntilGameOver(BufferedWriter out) throws IOException, InterruptedException { //method to play turns until the game is over, takes in a BufferedWriter as an argument, writes the player's actions to the output file, and handles any exceptions that occur during the game
-    boolean gameOver = state.isOver(); //only true here if a player was dealt a winning hand
+    boolean gameOver = state.awaitEndOfRound(); //round 0: waits for every player, so nobody can win a turn before everyone has checked for a dealt winning hand
     while (!gameOver){
       while (!deckToDrawFromID.awaitCard(WAIT_MILLIS)){
         if (state.isAborted()){
