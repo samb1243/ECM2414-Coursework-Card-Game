@@ -1,4 +1,4 @@
-# Software Development Continuous Assessment/ ECM2414-Coursework-Cars-game
+# ECM2414-Coursework-Card-game
 
 ## Table of Contents
 - [Overview](#overview)
@@ -19,14 +19,18 @@
 <br>For each player, a file is updated recording which cards they hold, draw and discard after each turn.
 
 ## [Requirements](#table-of-contents)
-- Java Development Kit (JDK) installed
+- Java Development Kit 27 (JDK27) installed
 - A terminal
-- Version:
+- Version: Java 17
 - Dependencies: all imports come from Java’s standard libraries, no external libraries are required
 
 ## [Compilation](#table-of-contents)
-- Commands:
-- You will be prompted to…
+- open a new terminal
+- navigate to ECM2414-Coursework-Card-Game\src
+- run the command javac *.java
+- run the command java CardGAme.java
+- you will be prompted to enter the number of players, until you enter a positive integer greater than 0
+- you will then be prompted to enter the path to a pack for those players to use, until you enter the path to a pack that contains exactly 8n rows and at least 4 of the same value
 
 ## [Running the Test Suite](#table-of-contents)
 - JUnit
@@ -67,7 +71,7 @@
 <br>└── README.md
 
 ## [Extra information](#table-of-contents)
-- Project name: Software Development Continuous Assessment/ ECM2414-Coursework-Cars-game
+- Project name: ECM2414-Coursework-Card-game
 - Project goal: A fully working card game simulation
 - Language: Java
 - Authors: Samuel Bartle and Arlo Risby
