@@ -26,7 +26,7 @@
 
 ## [Compilation](#table-of-contents)
 - open a new terminal
-- navigate to ECM2414-Coursework-Card-Game\src
+- navigate to ECM2414-Coursework-Card-Game-main\src
 - run the command javac *.java
 - run the command java CardGAme.java
 - you will be prompted to enter the number of players, until you enter a positive integer greater than 0
@@ -37,7 +37,10 @@
 ## [Running the Test Suite](#table-of-contents)
 - Dependencies JDK27
 - open a new terminal
-- navigate to ECM2414-Coursework-Card-Game\test
+- navigate to ECM2414-Coursework-Card-Game-main
+- run the command javac -cp "lib/*" -d bin src/*.java test/*.java
+- run the command java -cp "bin;lib/*" TestRunner
+- the results of teh test suit will be printed to the terminal
 
 ## [Project Structure](#table-of-contents)
 
