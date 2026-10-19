@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.Duration;
 
-import scr.GameState;
-
 import org.junit.jupiter.api.Test;
+
+import src.GameState;
 
 public class GameStateTest { //tests for the GameState class
 

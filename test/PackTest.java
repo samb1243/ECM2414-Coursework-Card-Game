@@ -10,13 +10,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import scr.InvalidPackException;
-import scr.Pack;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import src.InvalidPackException;
+import src.Pack;
 
 class PackTest {
 

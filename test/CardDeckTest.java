@@ -12,11 +12,11 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import scr.Card;
-import scr.CardDeck;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+
+import src.Card;
+import src.CardDeck;
 
 class CardDeckTest {
 

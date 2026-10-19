@@ -13,13 +13,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
-import scr.Card;
-import scr.CardDeck;
-import scr.GameState;
-import scr.Player;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+
+import src.Card;
+import src.CardDeck;
+import src.GameState;
+import src.Player;
 
 /**
  * Behaviour of a single player, driven through {@link Player#playTurn()} so

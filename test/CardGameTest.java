@@ -18,17 +18,17 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-import scr.Card;
-import scr.CardDeck;
-import scr.CardGame;
-import scr.InvalidPackException;
-import scr.Pack;
-import scr.Player;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import src.Card;
+import src.CardDeck;
+import src.CardGame;
+import src.InvalidPackException;
+import src.Pack;
+import src.Player;
 
 //Whole-game behaviour: dealing, termination, invariants and output files
 class CardGameTest {
