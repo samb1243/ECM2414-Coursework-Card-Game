@@ -48,8 +48,11 @@
 <br>├── Packs/
 <br>│   ├── eight.txt
 <br>│   ├── four.txt
-<br>├── Bin/
-<br>├── Lib/
+<br>├── bin/
+<br>├── lib/
+<br>├── report/
+<br>│   ├── ECM2414 Coursework Report.docx
+<br>│   ├── ECM2414 Pair Programming Development Process and Report.docx
 <br>├── src/
 <br>│   ├── Card.java
 <br>│   ├── CardDeck.java
