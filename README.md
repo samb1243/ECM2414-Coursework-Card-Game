@@ -35,8 +35,9 @@
 - the text "Player {x} wins" will be printed to the terminal {x} being the wining players ID
 
 ## [Running the Test Suite](#table-of-contents)
-- JUnit
-- Dependencies
+- Dependencies JDK27
+- open a new terminal
+- navigate to ECM2414-Coursework-Card-Game\test
 
 ## [Project Structure](#table-of-contents)
 
@@ -46,7 +47,7 @@
 <br>│   ├── four.txt
 <br>├── Bin/
 <br>├── Lib/
-<br>├── src/		OURS IS SCR
+<br>├── src/
 <br>│   ├── Card.java
 <br>│   ├── CardDeck.java
 <br>│   ├── CardGame.java
@@ -54,14 +55,6 @@
 <br>│   ├── InvalidPackException.java
 <br>│   ├── Pack.java
 <br>│   ├── Player.java
-<br>│   ├── deck1_output.txt
-<br>│   ├── deck2_output.txt
-<br>│   ├── deck3_output.txt
-<br>│   ├── deck4_output.txt
-<br>│   ├── player1_output.txt
-<br>│   ├── player2_output.txt
-<br>│   ├── player3_output.txt
-<br>│   ├── player4_output.txt
 <br>├── test/
 <br>│   ├── CardDeckTest.java
 <br>│   ├── GameGameTest.java
