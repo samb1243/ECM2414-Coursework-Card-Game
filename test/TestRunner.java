@@ -19,6 +19,7 @@ public final class TestRunner {
         PackTest.class,
         PlayerTest.class,
         CardGameTest.class,
+        GameStateTest.class,
     };
 
     private TestRunner() {
