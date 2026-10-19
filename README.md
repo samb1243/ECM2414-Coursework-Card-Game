@@ -9,13 +9,13 @@
 - [Extra information](#extra-information)
 
 ## [Overview](#table-of-contents)
-
 <br>We have created a multi-threaded card game playing simulation, where up to n players compete to hold exactly 4 cards of the same value.
 <br>The players are positioned in a ring with a deck in between each pair of adjacent players.
 <br>Initially, each player is dealt 4 cards and then each deck is dealt 4 cards from a pack containing 8n cards.
 <br>If any players are dealt 4 cards with the same value, they immediately win.
 <br>Whilst there is no winner, players simultaneously draw from the top of the deck to their left, and discard a card to the bottom of the deck to their right.
-<br>Each player prefers a value equal to their index and discards the card they have held for the longest not matching their preferred value. <br>All players will repeat this process until any player holds 4 cards of the same value; at this point any players with 4 cards of the same value win.
+<br>Each player prefers a value equal to their index and discards the card they have held for the longest not matching their preferred value.
+<br>All players will repeat this process until any player holds 4 cards of the same value; at this point any players with 4 cards of the same value win.
 <br>For each player, a file is updated recording which cards they hold, draw and discard after each turn.
 
 ## [Requirements](#table-of-contents)
@@ -30,7 +30,9 @@
 - run the command javac *.java
 - run the command java CardGAme.java
 - you will be prompted to enter the number of players, until you enter a positive integer greater than 0
-- you will then be prompted to enter the path to a pack for those players to use, until you enter the path to a pack that contains exactly 8n rows and at least 4 of the same value
+- you will then be prompted to enter the path to a pack for those players to use,
+<br>until you enter the path to a pack that contains exactly 8n rows and at least 4 cards of the same value (n is the number of players)
+- the text "Player {x} wins" will be printed to the terminal {x} being the wining players ID
 
 ## [Running the Test Suite](#table-of-contents)
 - JUnit
@@ -44,7 +46,6 @@
 <br>│   ├── four.txt
 <br>├── Bin/
 <br>├── Lib/
-<br>…
 <br>├── src/		OURS IS SCR
 <br>│   ├── Card.java
 <br>│   ├── CardDeck.java
